@@ -1,1 +1,152 @@
-awd
+/*
+Theme Name: CampNou
+Theme URI: https://themeegg.com/downloads/builder-lite/
+Author: ThemeEgg
+Author URI: https://themeegg.com
+Description: CampNou is a WordPress theme built for the most popular drag and drop page builder Elementor with multiple demos and one click demo import feature. If any support needed then hit the url https://themeegg.com/support-forum/ please check the demo on https://demo.themeegg.com/themes/builder-lite
+Version: 1.1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-background, custom-menu, custom-logo, featured-images, flexible-header, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, three-columns, left-sidebar, right-sidebar, e-commerce, blog
+Text Domain: builder lite
+*/
+/* ---- reset ---- */
+/* ---- particles.js container ---- */
+
+
+/*---------Custom CSS WebsiteC----------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+.py-3 {
+    padding-bottom: 1rem!important;
+}
+
+.py-4 {
+	padding-top: 2.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+.py-5 {
+	padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+.display-4 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+#navb {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img {
+	height: 40px;
+	padding-left: 30px;
+}
+
+.bg-scarlett {
+    background-color: #ce0039!important;
+}
+
+.carousel-caption2 {
+    position: absolute;
+    right: 15%;
+    bottom: 400px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.buttonb {
+  background-color: #ce0039;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 160px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.buttonb:hover {
+	background-color: #ff618d;
+}
+
+.buttonb span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonb span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonb:hover span {
+  padding-right: 25px;
+}
+
+.buttonb:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.bg-theme1 {
+	background: radial-gradient(#fff, #ffadad);
+}
+
+.bg-theme2 {
+	background: radial-gradient(#fff, #29c3c3);
+}
+
+.card-bodyb {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 1s, 
+  filter 1s ease-in-out;
+  filter: brightness(60%);
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+  filter: brightness(100%);
+}
+
+
+.centerv {
+  padding: 70px 0;
+}
+
